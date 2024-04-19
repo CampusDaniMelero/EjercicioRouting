@@ -1,0 +1,87 @@
+.comentarios {
+    background-color: #F8F8F8; /* Light background for better readability */
+    padding: 30px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .comentarios h2 {
+    font-size: 28px; /* Larger heading size */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .lista-comentarios {
+    display: flex;
+    flex-wrap: wrap; /* Wrap comments to multiple rows if needed */
+    justify-content: space-between; /* Distribute comments evenly */
+    gap: 20px; /* Spacing between comments */
+  }
+  
+  .comentario {
+    width: 350px; /* Adjust width as needed */
+    background-color: #fff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    position: relative; /* For positioning meta-comentario */
+  }
+  
+  .comentario p {
+    font-size: 16px;
+    line-height: 1.6; /* Adjust line height for spacing */
+    margin-bottom: 10px;
+  }
+  
+  .meta-comentario {
+    position: absolute; /* Position at the bottom-right */
+    bottom: 15px;
+    right: 15px;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .meta-comentario .autor {
+    font-weight: bold;
+  }
+  
+  .meta-comentario .fecha {
+    margin-left: 5px;
+  }
+  
+  .nuevo-comentario {
+    margin-top: 40px; /* Spacing between comments and new comment section */
+  }
+  
+  .nuevo-comentario h2 {
+    font-size: 24px; /* Smaller heading size */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .nuevo-comentario textarea {
+    width: 100%; /* Full-width textarea */
+    height: 100px; /* Adjust height as needed */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    resize: vertical; /* Allow vertical resizing */
+    font-family: inherit; /* Use the same font as the rest of the page */
+  }
+  
+  .nuevo-comentario button {
+    background-color: #007bff; /* Brand color */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  .nuevo-comentario button:hover {
+    background-color: #0056b3; /* Darker brand color on hover */
+  }
+  

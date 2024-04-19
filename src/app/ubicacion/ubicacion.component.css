@@ -1,0 +1,13 @@
+.mapa-container {
+    text-align: center;
+  }
+  
+  .mapa-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .mapa-container iframe {
+    /* Always display the map */
+    display: block;
+  }
+  

@@ -1,0 +1,83 @@
+/* Section Styles */
+section {
+    padding: 60px 0; /* Adjust padding as needed */
+    background-color: #f5f5f5; /* Light background color */
+  }
+  
+  .container {
+    max-width: 1024px; /* Set a maximum width for responsiveness */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 0 20px; /* Add horizontal padding */
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    text-align: center; /* Center content within the hero section */
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem; /* Set heading size */
+    font-weight: bold; /* Set heading weight */
+    margin-bottom: 20px; /* Add bottom margin */
+  }
+  
+  .hero p {
+    font-size: 1.1rem; /* Set paragraph size */
+    line-height: 1.5; /* Adjust line height for readability */
+  }
+  
+  /* Timeline Section Styles */
+  .timeline {
+    position: relative; /* Enable positioning for timeline markers */
+  }
+  
+  .timeline-list {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .timeline-item {
+    position: relative; /* Allow positioning of content within items */
+    margin-bottom: 60px; /* Add spacing between timeline items */
+  }
+  
+  .timeline-marker {
+    position: absolute; /* Position timeline marker on left side */
+    top: 50%;
+    left: -12px; /* Adjust marker position relative to content */
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #4CAF50; /* Marker color */
+  }
+  
+  .timeline-content {
+    padding: 20px; /* Add padding to content */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 4px; /* Round corners */
+    background-color: #fff; /* Content background color */
+    position: relative; /* Allow layering with marker */
+  }
+  
+  .timeline-content:after {
+    content: "";
+    position: absolute; /* Create a bottom border for continuity */
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 5px;
+    background-color: #ddd; /* Border color */
+    transform: translateX(-50%); /* Center the border horizontally */
+  }
+  
+  .timeline-content:first-child:after {
+    /* Remove border for the first item to avoid top line */
+    display: none;
+  }
+  
+  .timeline-content h4 {
+    font-size: 1.2rem; /* Set heading size for timeline entries */
+    margin-bottom: 10px; /* Add bottom margin */
+  }
+  

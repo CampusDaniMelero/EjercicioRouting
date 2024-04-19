@@ -1,0 +1,264 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Choose a modern, user-friendly font */
+    background-color: #F8F8F8; /* Light background for better readability */
+    color: #333; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff; /* White header for a clean look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust container width as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px; /* Adjust logo size */
+    font-weight: bold;
+    color: #007bff; /* Brand color */
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arrange links horizontally */
+    align-items: center; /* Vertically center links */
+  }
+  
+  nav li {
+    margin-right: 20px; /* Spacing between links */
+  }
+  
+  nav a {
+    color: #333; /* Text color */
+    text-decoration: none;
+    font-size: 16px; /* Link size */
+  }
+  
+  nav a:hover {
+    color: #007bff; /* Highlight on hover */
+  }
+  
+  .btn-buscar {
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .btn-buscar:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  /* Banner Section Styles */
+  .banner {
+    background-color: #E91E63; /* Vibrant background color */
+    color: #fff; /* White text for contrast */
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .banner h1 {
+    font-size: 48px; /* Large heading */
+    font-weight: bold;
+    line-height: 1.2; /* Adjust line height for spacing */
+  }
+  
+  .banner p {
+    font-size: 20px; /* Medium paragraph size */
+    line-height: 1.5; /* Adjust line height for readability */
+    margin-bottom: 30px;
+  }
+  
+  .btn-registro {
+    background-color: #fff; /* White button color */
+    color: #E91E63; /* Brand color */
+    border: 2px solid #E91E63; /* Button border */
+    padding: 12px 20px;
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+  }
+  
+  .btn-registro:hover {
+    background-color: #E91E63; /* Brand color on hover */
+    color: #fff; /* White text on hover */
+    border-color: #E91E63; /* Brand color border on hover */
+  }
+  
+  /* Descubrir Section Styles */
+  .descubrir {
+    background-color: #fff; /* White background */
+    padding: 60px 0;
+  }
+  
+  .descubrir h2 {
+    font-size: 32px; /* Large heading */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Descubrir Section Styles (continued) */
+.juegos-grid {
+    display: flex; /* Arrange games in a grid */
+    flex-wrap: wrap; /* Wrap to multiple rows if needed */
+    justify-content: center; /* Center games horizontally */
+    align-items: flex-start; /* Align games vertically at the top */
+    gap: 30px; /* Spacing between games */
+  }
+  
+  .juego {
+    width: 300px; /* Adjust game width as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .juego img {
+    width: 100%; /* Make image responsive */
+    height: 200px; /* Adjust image height as needed */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded corners for top */
+  }
+  
+  .juego h3 {
+    font-size: 20px; /* Game title size */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .juego p {
+    font-size: 14px; /* Description text size */
+    line-height: 1.5; /* Adjust line height for readability */
+  }
+  
+  .juego a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Noticias Section Styles */
+  .noticias {
+    background-color: #F5F5F5; /* Light gray background */
+    padding: 60px 0;
+  }
+  
+  .noticias h2 {
+    font-size: 32px; /* Large heading */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .noticias-list {
+    display: flex; /* Arrange articles in a row */
+    flex-wrap: wrap; /* Wrap to multiple rows if needed */
+    justify-content: center; /* Center articles horizontally */
+    align-items: flex-start; /* Align articles vertically at the top */
+    gap: 30px; /* Spacing between articles */
+  }
+  
+  .noticia {
+    width: 400px; /* Adjust article width as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 30px;
+  }
+  
+  .noticia img {
+    width: 100%; /* Make image responsive */
+    height: 150px; /* Adjust image height as needed */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded corners for top */
+  }
+  
+  .noticia h4 {
+    font-size: 18px; /* Article title size */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .noticia p {
+    font-size: 14px; /* Description text size */
+    line-height: 1.5; /* Adjust line height for readability */
+  }
+  
+  .noticia a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text for contrast */
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .social-media li {
+    display: inline-block; /* Display social media icons inline */
+    margin-right: 20px; /* Spacing between icons */
+  }
+  
+  .social-media a {
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s;
+  }
+  social-media a:hover {
+    color: #E91E63; /* Brand color on hover */
+  }
+  
+  /* Responsive Media Queries (Optional) */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens (e.g., tablets) */
+    .container {
+      padding: 0 10px;
+    }
+  
+    .juegos-grid {
+      flex-direction: column; /* Arrange games in a column on smaller screens */
+      gap: 20px;
+    }
+  
+    .juego {
+      width: 100%; /* Make games full width on smaller screens */
+    }
+  
+    .noticias-list {
+      flex-direction: column; /* Arrange articles in a column on smaller screens */
+      gap: 20px;
+    }
+  
+    .noticia {
+      width: 100%; /* Make articles full width on smaller screens */
+    }
+  }
+
+
+img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}

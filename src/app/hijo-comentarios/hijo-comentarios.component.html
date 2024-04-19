@@ -1,0 +1,14 @@
+<div class="comentarios">
+    <h2>Comentarios Agregados</h2>
+    <div class="lista-comentarios">
+        <div class="comentario" *ngFor="let comentario of comentarios">
+            <p>{{ comentario }}</p>
+        </div>
+    </div>
+  
+    <div class="nuevo-comentario">
+      <h2>Nuevo Comentario</h2>
+      <textarea [(ngModel)]="nuevoComentario"></textarea>
+      <button (click)="crearComentario()">Crear Comentario</button>
+    </div>
+  </div>
